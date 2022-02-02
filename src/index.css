@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    max-width: 100%;
+}
+
+textarea {
+    resize: none;
+    margin: 0;
+    width: 49vw;
+    height: 100vh;
+    border: none;
+    outline: none;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-right: 1px solid gray
+}
+
+#my-textarea {
+    width: 51vw;
+    height: 100vh;
+    border: none;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#my-textarea div {
+    display: flex;
+    align-items: stretch;
+    max-width: 50vw;
+}
+
+#my-textarea div p {
+    max-width: 95%;
+    color: black;
+}
+#my-textarea div .title {
+    display: inline-block;
+    color: red
+}
+#my-textarea div .subtitle {
+    display: inline-block;
+    color: blue
+}
+#my-textarea div .equation {
+    display: inline-block;
+    color: green
+}
+
+#my-textarea div .index {
+    width: 5%;
+    height: 100%;
+}
+#my-textarea div .index a {
+    width: 60%;
+    margin-left: 20%;
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
